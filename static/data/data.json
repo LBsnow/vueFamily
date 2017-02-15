@@ -1,0 +1,177 @@
+{
+  
+  "shopboard": {
+    "leixing": ["原味奶茶", "仙草奶茶", "黑砖奶茶", "布丁奶茶", "椰果奶茶", "红豆奶茶", "珍珠奶茶"],
+    "number": [12, 15, 23, 9, 21,  17, 3],
+    "numberData": [
+      { "value": 12, "name": "原味奶茶"},
+      { "value": 15, "name": "仙草奶茶" },
+      { "value": 23, "name": "黑砖奶茶"},
+      { "value": 9, "name": "布丁奶茶"},
+      { "value": 21, "name": "椰果奶茶" },
+      { "value": 17, "name": "红豆奶茶" },
+      { "value": 3, "name": "珍珠奶茶" }
+    ]
+  },
+  "garden": {
+    "leixing": ["金桔柠檬汁", "蜂蜜绿茶", "鲜柠七", "茉莉花茶", "伯爵红茶","黑加仑红茶","精选红茶"],
+    "number": [5,7,8,15,20,30,15],
+    "numberData": [
+      { "value": 5, "name": "金桔柠檬汁" },
+      { "value": 7, "name": "蜂蜜绿茶" },
+      { "value": 8, "name": "鲜柠七" },
+      { "value": 15, "name": "茉莉花茶" },
+      { "value": 20, "name": "伯爵红茶" },
+      { "value": 30, "name": "黑加仑红茶" },
+      { "value": 15, "name": "精选红茶" }
+    ]
+  },
+  "fresh":{
+    "leixing":["西瓜汁","柠檬汁","芒果汁","橙汁","红豆冰","芒果冰","柠檬沙冰"],
+    "number":[1,3,7,13,21,25,30],
+    "numberData":[
+      { "value": 1, "name": "西瓜汁" },
+      { "value": 3, "name": "柠檬汁" },
+      { "value": 7, "name": "芒果汁" },
+      { "value": 13, "name": "橙汁" },
+      { "value": 21, "name": "红豆冰" },
+      { "value": 25, "name": "芒果冰" },
+      { "value": 30, "name": "柠檬沙冰" }
+    ]
+  },
+  "mellow":{
+    "leixing":["绿茶奶盖","奶茶奶盖","巧克力奶盖","草莓奶盖","鸳鸯奶盖","墨香奶盖","盘栽奶盖"],
+    "number":[7,3,1,25,21,13,30],
+    "numberData":[
+      { "value": 7, "name": "绿茶奶盖" },
+      { "value": 3, "name": "奶茶奶盖" },
+      { "value": 1, "name": "巧克力奶盖"},
+      { "value": 25, "name": "草莓奶盖" },
+      { "value": 21, "name": "鸳鸯奶盖" },
+      { "value": 13, "name": "墨香奶盖" },
+      { "value": 30, "name": "盘栽奶盖" }
+    ]
+  },
+"food":{
+    "leixing":["香辣鸡排","香辣鸡翅","香辣鸡腿","烤鱼肠","鸡肉卷","麦乐鸡翅","蜜汁鸡翅"],
+    "number":[15,7,20,15,30,8,5],
+    "numberData":[
+      { "value": 15, "name": "香辣鸡排" },
+      { "value": 7, "name": "香辣鸡翅" },
+      { "value": 20, "name": "香辣鸡腿"},
+      { "value": 15, "name": "烤鱼肠" },
+      { "value": 30, "name": "鸡肉卷" },
+      { "value": 8, "name": "麦乐鸡翅" },
+      { "value": 5, "name": "蜜汁鸡翅" }
+    ]
+  },
+"jin":{
+    "leixing":["金葫芦","丽颜茶","润肺茶","清热暗疮茶","菊花雪梨茶","罗汉果茶","感冒茶"],
+    "number":[30,25,21,13,7,3,1],
+    "numberData":[
+      { "value": 30, "name": "金葫芦" },
+      { "value": 25, "name": "丽颜茶" },
+      { "value": 21, "name": "润肺茶"},
+      { "value": 13, "name": "清热暗疮茶" },
+      { "value": 7, "name": "菊花雪梨茶" },
+      { "value": 3, "name": "罗汉果茶" },
+      { "value": 1, "name": "感冒茶" }
+    ]
+  },
+
+  "foodvue":{
+    "foodvue":[
+    {"name":"香辣鸡排","price":5,"count":0},
+    {"name":"香辣鸡腿","price":7,"count":0},
+    {"name":"烤鱼肠","price":7,"count":0},
+    {"name":"香辣鸡翅","price":4,"count":0},
+    {"name":"鸡肉卷","price":6,"count":0},
+    {"name":"蜜汁鸡翅","price":9,"count":0},
+    {"name":"汉堡饼干","price":8,"count":0},
+    {"name":"鸡柳","price":8,"count":0},
+    {"name":"香芋饼","price":8,"count":0},
+    {"name":"薯条","price":9,"count":0},
+    {"name":"蜜汁童子鸡","price":9,"count":0},
+    {"name":"双层牛肉汉堡","price":6,"count":0},
+    {"name":"香辣鸡腿汉堡","price":5,"count":0}]
+  },
+    "shopboardvue":{
+    "shopboardvue":[
+    {"name":"原味奶茶","price":5,"count":0},
+    {"name":"墨香奶茶","price":7,"count":0},
+    {"name":"珍珠奶茶","price":7,"count":0},
+    {"name":"西米奶茶","price":4,"count":0},
+    {"name":"红豆奶茶","price":6,"count":0},
+    {"name":"布丁奶茶","price":6,"count":0},
+    {"name":"椰果奶茶","price":6,"count":0},
+    {"name":"仙草奶茶","price":6,"count":0},
+    {"name":"黑砖奶茶","price":6,"count":0},
+    {"name":"烧仙草","price":6,"count":0},
+    {"name":"香滑咖啡","price":9,"count":0},
+    {"name":"柚子茶","price":6,"count":0},
+    {"name":"双Q奶茶","price":5,"count":0}]
+  },
+    "gardenvue":{
+    "gardenvue":[
+    {"name":"鲜金桔汁","price":6,"count":0},
+    {"name":"金橘柠檬汁","price":6,"count":0},
+    {"name":"鲜柠檬绿茶","price":6,"count":0},
+    {"name":"鲜柠檬红茶","price":6,"count":0},
+    {"name":"柠檬黑加仑","price":7,"count":0},
+    {"name":"鲜柠檬水","price":7,"count":0},
+    {"name":"咸柠七","price":6,"count":0},
+    {"name":"鲜柠乐","price":7,"count":0},
+    {"name":"精选红茶","price":7,"count":0},
+    {"name":"蜂蜜绿茶","price":7,"count":0},
+    {"name":"茉莉花茶","price":9,"count":0},
+    {"name":"黑加仑红茶","price":6,"count":0},
+    {"name":"伯爵红茶","price":5,"count":0}]
+  },
+    "freshvue":{
+    "freshvue":[
+    {"name":"雪梨汁","price":6,"count":0},
+    {"name":"芒果汁","price":6,"count":0},
+    {"name":"西瓜汁","price":6,"count":0},
+    {"name":"橙汁","price":6,"count":0},
+    {"name":"柠檬汁","price":7,"count":0},
+    {"name":"红豆沙","price":7,"count":0},
+    {"name":"芒果沙冰","price":6,"count":0},
+    {"name":"西瓜冰沙","price":7,"count":0},
+    {"name":"柠檬冰沙","price":7,"count":0},
+    {"name":"红豆冰沙","price":7,"count":0},
+    {"name":"草莓冰沙","price":9,"count":0},
+    {"name":"芒果雪泡","price":6,"count":0},
+    {"name":"柠檬雪泡","price":5,"count":0}]
+  },
+    "mellowvue":{
+    "mellowvue":[
+    {"name":"绿茶奶盖","price":7,"count":0},
+    {"name":"红茶奶盖","price":7,"count":0},
+    {"name":"墨香奶盖","price":5,"count":0},
+    {"name":"草莓奶盖","price":6,"count":0},
+    {"name":"巧克力奶盖","price":7,"count":0},
+    {"name":"盘载奶盖","price":7,"count":0},
+    {"name":"盘栽绿茶","price":6,"count":0},
+    {"name":"盘栽红茶","price":7,"count":0},
+    {"name":"草莓奶茶","price":7,"count":0},
+    {"name":"鸳鸯奶茶","price":7,"count":0},
+    {"name":"咖啡奶茶","price":9,"count":0},
+    {"name":"巧克力奶茶","price":6,"count":0},
+    {"name":"椰紫米露","price":8,"count":0}]
+  },
+    "jinvue":{
+    "jinvue":[
+    {"name":"金葫芦","price":7,"count":0},
+    {"name":"丽颜茶","price":7,"count":0},
+    {"name":"止咳润肺茶","price":5,"count":0},
+    {"name":"感冒茶","price":6,"count":0},
+    {"name":"清热暗疮茶","price":7,"count":0},
+    {"name":"盘载奶盖","price":7,"count":0},
+    {"name":"菊花雪梨茶","price":6,"count":0},
+    {"name":"罗汉果茶","price":7,"count":0},
+    {"name":"茉莉茶","price":7,"count":0},
+    {"name":"玫瑰花茶","price":7,"count":0},
+    {"name":"杏仁茶","price":9,"count":0},
+    {"name":"凉茶","price":6,"count":0}]
+  }
+}
